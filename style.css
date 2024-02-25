@@ -1,0 +1,75 @@
+/*resest margin ,padding*/
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.red{
+    border:  1px solid red;
+}
+.green{
+    border: 1px solid green;
+}
+.banner{
+    height: 500px;
+    background: url(./banner.jpg) center center no-repeat;
+    padding: 20px;/* tạo khoảng cách*/
+}
+.about-signin{
+    height: 80px;
+    width: 100%;
+    text-align: right;
+
+}
+.about, .sign{
+    margin-top: 20px;
+    padding: 7px 15px;/* tạo khoảng cách*/
+    text-transform: uppercase;/* viết hoa*/
+    text-decoration: none;
+    display: inline-block;
+}
+.sign{
+    margin-left: 60px;
+    margin-right: 25px;
+    border: 1px solid green;
+    border-radius: 20px; /* dùng để bo cong */
+ 
+}
+.logo{
+    background: url(./hapoERP.png) center center no-repeat;
+    margin-top: 40px;
+    height: 100px;
+
+
+}
+.btn{
+    text-align: center;
+    
+}
+button{
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 1px solid green;
+    border-radius: 20px; /* dùng để bo cong */
+    margin-top: 25px;
+    cursor: pointer; /* khi rê chuột vào sẽ hiên hình bàn tay*/
+}
+.text{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.left,.right,.center{
+    width: 33%;
+    display: inline-block; /* dùng để cho các phần thông tin nằm cùng một hàng*/
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+span{
+    display: block;
+    font-size: 20px;/* dung de dieu chinh kich co hinh anh*/}
+img{
+    width: 30px;
+    height: 30px
+    ;
+}
